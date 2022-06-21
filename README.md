@@ -13,7 +13,7 @@ Book management web portal using MERN stack
 - `git diff` to show modification after the last commit.
 - `git clone` to create a copy of remote repo on our local machine. eg `git clone https://github.com/VidyaConsultancy/nodejs-basics.git`
 - `git pull` to receive/retrieve/fetch commits/updates from the remote repo to the local repo.
-- `git push` to send local commits/updates to the remote repo.
+- `git push` to send local commits/updates to the remote repo. eg. `git push <remote_name> <local_branch_name>:<remote_branch_name>`
 
 ## Terminology
 - Local repository
