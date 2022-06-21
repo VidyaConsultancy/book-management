@@ -18,3 +18,6 @@ Book management web portal using MERN stack
 ## Terminology
 - Local repository
 - Remote repository
+
+## Collaboration with GitHub
+    GitHub is a platform that provides Git Repository through a web interface.
