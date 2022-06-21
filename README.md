@@ -15,6 +15,13 @@ Book management web portal using MERN stack
 - `git pull` to receive/retrieve/fetch commits/updates from the remote repo to the local repo. eg `git pull <remote_name> <remote_branch>` this will fetch latest changes from the <remote_name+remote_branch> merge it in local repository's branch.
 - `git push` to send local commits/updates to the remote repo. eg. `git push <remote_name> <local_branch_name>:<remote_branch_name>`
 
+### General flow
+- Modify files/create files/delete files
+- Use git add to move those files in the stage area
+- Use git commit to confirm and save those changes.
+- Use git pull to fetch latest changes from the remote.
+- Use git push to publish/send latest changes to the remote.
+
 ## Terminology
 - Local repository
 - Remote repository
