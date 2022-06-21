@@ -35,3 +35,8 @@ Book management web portal using MERN stack
 
 ## Collaboration with GitHub
     GitHub is a platform that provides Git Repository through a web interface.
+
+## Further references
+- [Bitbucket Git tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+- [GitHub Git docs](https://docs.github.com/en/get-started/getting-started-with-git)
+- [FreeCodeCamp Git + GitHub](https://www.freecodecamp.org/news/git-and-github-for-beginners/)
