@@ -29,6 +29,16 @@ Book management web portal using MERN stack
 - `git stash apply [stash@{stashId}]` to apply a stash from the list and keep it; where `[stash@{stashId}]` is optional and if not provided it will take the latest one. `stashId` is stash number.
 - `git stash drop [stash@{stashId}]` to drop/discard a stash from the list; where `[stash@{stashId}]` is optional and if not provided it will take the latest one. `stashId` is stash number.
 
+### Combine changes
+- **merge** process - merge changes from develop to main
+    - checkout to target branch i.e. main `git checkout main`
+    - apply changes from the source branch i.e. develop by `git merge develop`. This will apply the changes/new commits from the develop branch to the main branch.
+
+- **rebase** process - rebase develop to main branch.
+    - checkout to target branch i.e. develop `git checkout develop`
+    - rebase develop to main branch `git rebase main`. This will rebase the develop branch with main branch.
+
+
 ### General flow
 - Modify files/create files/delete files
 - Use git add to move those files in the stage area
