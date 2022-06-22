@@ -22,6 +22,13 @@ Book management web portal using MERN stack
 - `git branch <new_branch_name>` creates a new local branch with provided name.
 - `git checkout <branch_name>` switch branch to the provided name.
 
+### Partial commits - using stash
+- `git stash` to create a partial/temporary commit.
+- `git stash list` to view the list of stashes.
+- `git stash pop [stash@{stashId}]` to apply a stash from the list and discard it; where `[stash@{stashId}]` is optional and if not provided it will take the latest one. `stashId` is stash number.
+- `git stash apply [stash@{stashId}]` to apply a stash from the list and keep it; where `[stash@{stashId}]` is optional and if not provided it will take the latest one. `stashId` is stash number.
+- `git stash drop [stash@{stashId}]` to drop/discard a stash from the list; where `[stash@{stashId}]` is optional and if not provided it will take the latest one. `stashId` is stash number.
+
 ### General flow
 - Modify files/create files/delete files
 - Use git add to move those files in the stage area
